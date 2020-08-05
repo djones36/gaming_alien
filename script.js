@@ -13,3 +13,16 @@ var name = "John";
 
 console.log("+ to combine two string vars " + name + " " + value);
 console.log(`Practicing string literals with backticks ${name} ${value}`);
+
+//String.concat method - lets see how slow we can make javascript!
+var aString = " ";
+
+console.log(
+  `concat value and name with aString for the space: ${value.concat(
+    aString,
+    name
+  )}`
+);
+
+const num3 = num2 + num2;
+console.log(num3);
