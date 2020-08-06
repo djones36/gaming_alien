@@ -30,8 +30,8 @@ console.log(num3);
 var w = 22;
 var r = 211;
 console.log(w === r);
-
-var age = prompt("Enter your age");
+// Else if practice
+// var age = prompt("Enter your age");
 
 // if (age >= 18) {
 //   console.log("User is an adult...");
@@ -39,10 +39,32 @@ var age = prompt("Enter your age");
 //   console.log("User is underage...");
 // }
 
-if (age >= 18) {
-  console.log("User is an adult...");
-} else if (age < 18) {
-  console.log("User is underage...");
-} else {
-  console.log("Enter a valid number");
+// if (age >= 18) {
+//   console.log("User is an adult...");
+// } else if (age < 18) {
+//   console.log("User is underage...");
+// } else {
+//   console.log("Enter a valid number");
+// }
+
+//Switch statement practice
+// switch(expression){
+
+// }
+
+var month = prompt("Enter a summer month");
+
+switch (month) {
+  case "June":
+    console.log("The first month of summer");
+    break;
+  case "July":
+    console.log("The middle month of summer");
+    break;
+  case "August":
+    console.log("The last month of summer");
+    break;
+  default:
+    console.log("It is not summer");
+    break;
 }
