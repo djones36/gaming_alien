@@ -52,19 +52,38 @@ console.log(w === r);
 
 // }
 
-var month = prompt("Enter a summer month");
+// var month = prompt("Enter a summer month");
 
-switch (month) {
-  case "June":
-    console.log("The first month of summer");
-    break;
-  case "July":
-    console.log("The middle month of summer");
-    break;
-  case "August":
-    console.log("The last month of summer");
-    break;
-  default:
-    console.log("It is not summer");
-    break;
-}
+// switch (month) {
+//   case "June":
+//     console.log("The first month of summer");
+//     break;
+//   case "July":
+//     console.log("The middle month of summer");
+//     break;
+//   case "August":
+//     console.log("The last month of summer");
+//     break;
+//   default:
+//     console.log("It is not summer");
+//     break;
+// }
+
+// Function expression
+var getAreaRect = function (width, height) {
+  return width * height;
+};
+console.log(`getAreaRect function expression: ${getAreaRect(2, 10)}`);
+
+// Arrow function
+const helloUSA = () => {
+  return "Hello USA";
+};
+hello = () => {
+  return "hello";
+};
+console.log(helloUSA);
+// const getMulti = (x.y) => {
+//   return x * y;
+// };
+// multi = (x.y) => x * y;
