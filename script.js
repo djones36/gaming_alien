@@ -26,3 +26,23 @@ console.log(
 
 const num3 = num2 + num2;
 console.log(num3);
+
+var w = 22;
+var r = 211;
+console.log(w === r);
+
+var age = prompt("Enter your age");
+
+// if (age >= 18) {
+//   console.log("User is an adult...");
+// } else {
+//   console.log("User is underage...");
+// }
+
+if (age >= 18) {
+  console.log("User is an adult...");
+} else if (age < 18) {
+  console.log("User is underage...");
+} else {
+  console.log("Enter a valid number");
+}
