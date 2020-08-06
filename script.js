@@ -83,7 +83,10 @@ hello = () => {
   return "hello";
 };
 console.log(helloUSA);
-// const getMulti = (x.y) => {
-//   return x * y;
-// };
-// multi = (x.y) => x * y;
+const getMulti = (x, y) => {
+  return x * y;
+};
+multi = (x, y) => x * y;
+let sum = (x, y) => x + y;
+
+alert(sum(1, 4)); //5
