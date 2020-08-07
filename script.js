@@ -83,10 +83,36 @@ hello = () => {
   return "hello";
 };
 console.log(helloUSA);
-const getMulti = (x, y) => {
-  return x * y;
-};
+
 multi = (x, y) => x * y;
 let sum = (x, y) => x + y;
 
-alert(sum(1, 4)); //5
+// alert(sum(1, 4)); //5
+
+// let ask = (question, yes, no) => {
+//     if (confirm (question)) yes()
+//     else no();
+// }
+
+// Rewrite this as an arrow function!!!!
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+
+//   ask(
+//     "Do you agree?",
+//     function() { alert("You agreed."); },
+//     function() { alert("You canceled the execution."); }
+//   );
+
+let ask = (question, yes, no) => {
+  if (confirm(question)) yes();
+  else no();
+};
+ask(
+  "Do you agree?",
+  () => alert(" You agree."),
+  () => alert("You canceled the execution.")
+);
