@@ -106,13 +106,24 @@ let sum = (x, y) => x + y;
 //     function() { alert("You agreed."); },
 //     function() { alert("You canceled the execution."); }
 //   );
+/*
+multiline comments
+yah another line
+omg another line
+lets keep this line going!
+ok nvm thats enough, lets get back to work.
+*/
+// let ask = (question, yes, no) => {
+//   if (confirm(question)) yes();
+//   else no();
+// };
+// ask(
+//   "Do you agree?",
+//   () => alert(" You agree."),
+//   () => alert("You canceled the execution.")
+// );
+var array = ["John", "Mike", "Adam", "Bob"];
 
-let ask = (question, yes, no) => {
-  if (confirm(question)) yes();
-  else no();
-};
-ask(
-  "Do you agree?",
-  () => alert(" You agree."),
-  () => alert("You canceled the execution.")
-);
+console.log(array);
+let deleteVar = array.pop();
+console.log(` Pop array method ${array}`);
