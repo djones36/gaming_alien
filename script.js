@@ -122,8 +122,9 @@ ok nvm thats enough, lets get back to work.
 //   () => alert(" You agree."),
 //   () => alert("You canceled the execution.")
 // );
-var array = ["John", "Mike", "Adam", "Bob"];
+// var array = ["John", "Mike", "Adam", "Bob"];
 
-console.log(array);
-let deleteVar = array.pop();
-console.log(` Pop array method ${array}`);
+// console.log(array);
+// let deleteVar = array.pop();
+// console.log(` Pop array method ${array.length}`);
+// let array2 = [1, 2, 3, 4];
